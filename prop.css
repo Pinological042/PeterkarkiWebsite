@@ -45,6 +45,13 @@ a{
 	width: auto;
 
 }
+.info1{
+	margin: 0px 100px;
+	color: white; 
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 1px 100px;
+}
+
 .container{
 	width: 50%;
 	margin: 0 auto;
@@ -111,5 +118,89 @@ a{
   .bar.advanced::before{
 	width: calc(80% - 10px);
   }
+.button{
+	background-color: rgb(6, 125, 146);
+	font-family: Helvetica;
+	color: white;
+	padding: 10px 10px;
+	margin: 10px 10px;
+	
+}
+  .contain{
+	  background-color: rgb(17, 248, 171);
+	  height: 10px;
+	  width: 100%;
+  }
+  .so1:hover {
+    margin: auto 10px;
+    transform: scale(1.5);
 
-  
+    }
+    .so2:hover {
+    margin: auto 10px;
+    transform: scale(1.5);
+
+    }
+    .so3:hover {
+    margin: auto 10px;
+    transform: scale(1.5);
+
+    }
+    .so4:hover {
+    margin: auto 10px;
+    transform: scale(1.5);
+
+    }
+    .so5:hover {
+    margin: auto 10px;
+    transform: scale(1.5);
+
+    }
+    .so6:hover {
+    margin: auto 10px;
+    transform: scale(1.5);
+
+    }
+
+.box{
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    animation-name: ok;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes ok{
+    0% {
+        background-color: blue;
+        top: 0px;
+        border-radius: 0% 0% 0% 0%;
+    }
+    25% {
+        background-color: skyblue;
+        top: 25px;
+        border-radius: 50% 50% 0% 0%;
+    }
+    50% {
+        background-color: tomato;
+        top: 50px;
+        border-radius: 50% 50% 50% 50%;
+    }
+    75% {
+        background-color: goldenrod;
+        top: 25px;
+        border-radius: 50% 50% 0% 0%;
+    }
+    100% {
+        background-color: teal;
+        top: 0px;
+        border-radius: 0% 0% 0% 0%;
+    }
+}
+.big:hover{
+	margin: 60px 60px;
+	transform: scale(1.5);
+}
