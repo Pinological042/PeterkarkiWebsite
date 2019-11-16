@@ -1,206 +1,229 @@
-body {
-	margin: 0 auto;
-	background:#00001a;
-	font-family: Arial, Helvetica, sans-serif;
-	background-image: linear-gradient(rgb(20, 161, 150),rgb(6, 125, 146));
-
-
-}
-a{
-	color: #ffffff;
-}
-
-.topbar {
-		overflow: hidden;
-		background-color: #333;
-		font-size: 19px;
-		font-family: sans-serif;
-		padding: 14px 20px;
-    }
-.topbar a {
-    	float: right;
-		text-align: center;
-		padding: 5px 20px;
-    	text-decoration: none;
-       }
- .topbar a:hover {
-     	background-color: #325b83;
-     	font-family: Helvetica;
-     }
- .on{
-     	color: #99ccff;
-     }
-
-
-
-.head{
-	color: #ffffff;
-	font-size: 40px;
-	
-}
-#bottom{
-	background-color: rgb(20, 161, 150);
-	text-align: center;
-	padding: 20px;
-	width: auto;
-
-}
-.info1{
-	margin: 0px 100px;
-	color: white; 
-	font-family: Arial, Helvetica, sans-serif;
-	padding: 1px 100px;
-}
-
-.container{
-	width: 50%;
-	margin: 0 auto;
-  }
-  @keyframes load{
-	from {
-	  width: 0%
-	}
-  }
-  @-webkit-keyframes load{
-	from {
-	  width: 0%
-	}
-  }
-  @-moz-keyframes load{
-	from {
-	  width: 0%
-	}
-  }
-  @-o-keyframes load{
-	from {
-	  width: 0%
-	}
-  }
-  
-  .bar{
-	background-color: #EEE;
-	padding: 2px;
-	border-radius: 15px;
-	margin-bottom: 5px;
-	font-size: 14px;
-	color: #FFF;
-	font-weight: bold;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-  }
-  .bar::before{
-	content:  attr(data-skill);
-	background-color: #f3b0ff;
-	display: inline-block;
-	padding: 5px 0 5px 10px;
-	border-radius: inherit;
-	animation: load 2s 0s;
-	-webkit-animation: load 2s 0s;
-	-moz-animation: load 2s 0s;
-	-o-animation: load 2s 0s;
-  }
-  
-  .bar.front::before{
-	background-color:#ffcc33;
-  }
-  .bar.back::before{
-	background-color: #ffcc33;
-  }
-  
-  .bar.learning::before{
-	width: calc(20% - 10px);
-  }
-  .bar.basic::before{
-	width: calc(40% - 10px);
-  }
-  .bar.intermediate::before{
-	width: calc(60% - 10px);
-  }
-  .bar.advanced::before{
-	width: calc(80% - 10px);
-  }
-.button{
-	background-color: rgb(6, 125, 146);
-	font-family: Helvetica;
-	color: white;
-	padding: 10px 10px;
-	margin: 10px 10px;
-	
-}
-  .contain{
-	  background-color: rgb(17, 248, 171);
-	  height: 10px;
-	  width: 100%;
-  }
-  .so1:hover {
-    margin: auto 10px;
-    transform: scale(1.5);
-
-    }
-    .so2:hover {
-    margin: auto 10px;
-    transform: scale(1.5);
-
-    }
-    .so3:hover {
-    margin: auto 10px;
-    transform: scale(1.5);
-
-    }
-    .so4:hover {
-    margin: auto 10px;
-    transform: scale(1.5);
-
-    }
-    .so5:hover {
-    margin: auto 10px;
-    transform: scale(1.5);
-
-    }
-    .so6:hover {
-    margin: auto 10px;
-    transform: scale(1.5);
-
-    }
-
-.box{
-    height: 90px;
-    width: 90px;
-    background-color: white;
-    animation-name: ok;
-    animation-duration: 4s;
-    position: relative;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-
-}
-@keyframes ok{
-    0% {
-        background-color: blue;
-        top: 0px;
-        border-radius: 0% 0% 0% 0%;
-    }
-    25% {
-        background-color: skyblue;
-        top: 25px;
-        border-radius: 50% 50% 0% 0%;
-    }
-    50% {
-        background-color: tomato;
-        top: 50px;
-        border-radius: 50% 50% 50% 50%;
-    }
-    75% {
-        background-color: goldenrod;
-        top: 25px;
-        border-radius: 50% 50% 0% 0%;
-    }
-    100% {
-        background-color: teal;
-        top: 0px;
-        border-radius: 0% 0% 0% 0%;
-    }
-}
-.big:hover{
-	margin: 60px 60px;
-	transform: scale(1.5);
-}
+                            body {
+                                margin: 0 auto;
+                                background: #00001a;
+                                font-family: Arial, Helvetica, sans-serif;
+                                background-image: linear-gradient(rgb(20, 161, 150), rgb(6, 125, 146));
+                            }
+                            
+                            a {
+                                color: #ffffff;
+                            }
+                            
+                            .topbar {
+                                overflow: hidden;
+                                background-color: #333;
+                                font-size: 19px;
+                                font-family: sans-serif;
+                                padding: 14px 20px;
+                            }
+                            
+                            .topbar a {
+                                float: right;
+                                text-align: center;
+                                padding: 5px 20px;
+                                text-decoration: none;
+                            }
+                            
+                            .topbar a:hover {
+                                background-color: #325b83;
+                                font-family: Helvetica;
+                            }
+                            
+                            .on {
+                                color: #99ccff;
+                            }
+                            
+                            .head {
+                                color: #ffffff;
+                                font-size: 40px;
+                            }
+                            
+                            #bottom {
+                                background-color: rgb(20, 161, 150);
+                                text-align: center;
+                                padding: 20px;
+                                width: auto;
+                            }
+                            
+                            .info1 {
+                                margin: 0px 100px;
+                                color: white;
+                                font-family: Arial, Helvetica, sans-serif;
+                                padding: 1px 100px;
+                            }
+                            
+                            .container {
+                                width: 50%;
+                                margin: 0 auto;
+                            }
+                            
+                            @keyframes load {
+                                from {
+                                    width: 0%
+                                }
+                            }
+                            
+                            @-webkit-keyframes load {
+                                from {
+                                    width: 0%
+                                }
+                            }
+                            
+                            @-moz-keyframes load {
+                                from {
+                                    width: 0%
+                                }
+                            }
+                            
+                            @-o-keyframes load {
+                                from {
+                                    width: 0%
+                                }
+                            }
+                            
+                            .bar {
+                                background-color: #EEE;
+                                padding: 2px;
+                                border-radius: 15px;
+                                margin-bottom: 5px;
+                                font-size: 14px;
+                                color: #FFF;
+                                font-weight: bold;
+                                text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+                            }
+                            
+                            .bar::before {
+                                content: attr(data-skill);
+                                background-color: #f3b0ff;
+                                display: inline-block;
+                                padding: 5px 0 5px 10px;
+                                border-radius: inherit;
+                                animation: load 2s 0s;
+                                -webkit-animation: load 2s 0s;
+                                -moz-animation: load 2s 0s;
+                                -o-animation: load 2s 0s;
+                            }
+                            
+                            .bar.front::before {
+                                background-color: #ffcc33;
+                            }
+                            
+                            .bar.back::before {
+                                background-color: #ffcc33;
+                            }
+                            
+                            .bar.learning::before {
+                                width: calc(20% - 10px);
+                            }
+                            
+                            .bar.basic::before {
+                                width: calc(40% - 10px);
+                            }
+                            
+                            .bar.intermediate::before {
+                                width: calc(60% - 10px);
+                            }
+                            
+                            .bar.advanced::before {
+                                width: calc(80% - 10px);
+                            }
+                            
+                            .button {
+                                background-color: rgb(6, 125, 146);
+                                font-family: Helvetica;
+                                color: white;
+                                padding: 10px 10px;
+                                margin: 10px 10px;
+                            }
+                            
+                            .contain {
+                                background-color: rgb(17, 248, 171);
+                                height: 10px;
+                                width: 100%;
+                            }
+                            
+                            .so1:hover {
+                                margin: auto 10px;
+                                transform: scale(1.5);
+                            }
+                            
+                            .so2:hover {
+                                margin: auto 10px;
+                                transform: scale(1.5);
+                            }
+                            
+                            .so3:hover {
+                                margin: auto 10px;
+                                transform: scale(1.5);
+                            }
+                            
+                            .so4:hover {
+                                margin: auto 10px;
+                                transform: scale(1.5);
+                            }
+                            
+                            .so5:hover {
+                                margin: auto 10px;
+                                transform: scale(1.5);
+                            }
+                            
+                            .so6:hover {
+                                margin: auto 10px;
+                                transform: scale(1.5);
+                            }
+                            
+                            .box {
+                                height: 90px;
+                                width: 90px;
+                                background-color: white;
+                                animation-name: ok;
+                                animation-duration: 4s;
+                                position: relative;
+                                animation-iteration-count: infinite;
+                                animation-timing-function: linear;
+                            }
+                            
+                            @keyframes ok {
+                                0% {
+                                    background-color: blue;
+                                    top: 0px;
+                                    border-radius: 0% 0% 0% 0%;
+                                }
+                                25% {
+                                    background-color: skyblue;
+                                    top: 25px;
+                                    border-radius: 50% 50% 0% 0%;
+                                }
+                                50% {
+                                    background-color: tomato;
+                                    top: 50px;
+                                    border-radius: 50% 50% 50% 50%;
+                                }
+                                75% {
+                                    background-color: goldenrod;
+                                    top: 25px;
+                                    border-radius: 50% 50% 0% 0%;
+                                }
+                                100% {
+                                    background-color: teal;
+                                    top: 0px;
+                                    border-radius: 0% 0% 0% 0%;
+                                }
+                            }
+                            
+                            .big:hover {
+                                margin: 60px 60px;
+                                transform: scale(1.5);
+                            }
+                            
+                            .channel {
+                                display: inline;
+                                float: left;
+                                margin: 45px 45px;
+                            }
+                            
+                            .channel1 {
+                                display: inline;
+                                float: right;
+                                margin: 45px 45px;
+                            }
